@@ -18,7 +18,7 @@ function mostrar(){
   var h3 = document.getElementById('res');
   var h4 = document.getElementById('total');
   h3.innerHTML = 'Datos del Formulario';
-  h4.innerHTML ="El email ingresado es:</br> " + email.value + '</br>'+ 'La clave ingresada es: </br>'+ password.value;
+  h4.innerHTML ="El email ingresado es:</br> "+ '<br>' + email.value + '</br>'+ '<br>La clave ingresada es: </br>'+ '<br>'+ password.value;
 };
 //Esta aun no funciona correctamente
 /*function mostrarDatos(e){
